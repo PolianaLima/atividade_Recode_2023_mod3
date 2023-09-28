@@ -1,0 +1,27 @@
+#bg-img-home_busca_promocoes {
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)),
+		url("../../assets/img/fundo_banner_home.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	min-height: 400px;
+}
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: black;
+
+	margin-right: 150px;
+}
+
+
+
+
+
+/*MIDEA-QUERIES - PAGINA-HOME*/
+@media (max-width: 960px) {
+	.d-lg-flex {
+		min-width: 90% !important;
+	}
+}
