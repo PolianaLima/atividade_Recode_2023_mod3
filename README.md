@@ -7,6 +7,7 @@ Atividade desenvolvida para exercitar conhecimentos do modulo 02 e 03.
  <li>Abra o projeto JAVA e baixe as dependecias pelo gerenciador de dependencias MAVEN</li> 
  <li>E execute o projeto JAVA;</li> 
 <p>Para Visualizar o projeto HTML abra a pasta <B>agencia_viagens_java</B> e abra o arquivo index.html </p>
+<a href="https://agencia-ferias-lazer.netlify.app/">Link do site : Agencia de Viagem!</a>
 
  ## IMPORTANTE
  ### Na rotina de Administrador cadastre as informações: 
