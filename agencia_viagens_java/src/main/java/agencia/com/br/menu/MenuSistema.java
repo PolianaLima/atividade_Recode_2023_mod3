@@ -53,9 +53,9 @@ public class MenuSistema {
                 System.out.print("Digite a opção escolhida: ");
                 opcao = entrada.nextInt();
 
-
-                System.out.println("Finalizando Sistema!");
             }
+
+            System.out.println("Finalizando Sistema!");
         } catch (java.util.InputMismatchException e) {
             System.out.println("Entrada inválida. Esperava-se um número inteiro.");
             exibirMenu();

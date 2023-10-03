@@ -105,6 +105,7 @@ public class AeroportoController {
             System.out.println("Cidade: " + elemento.getCidade());
             System.out.println("Estado: " + elemento.getEstado());
             System.out.println("Pais: " + elemento.getPais());
+            System.out.println("");
         });
     }
 

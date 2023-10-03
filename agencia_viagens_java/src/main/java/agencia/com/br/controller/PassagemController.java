@@ -95,9 +95,9 @@ public class PassagemController {
 
         for (Reserva reserva : reservaList) {
             if (reserva.getId_cliente() == id_ClienteAutenticado){
-                List<Voo> getVoo = VooService.findById(reserva.getId_reserva());
+                List<Voo> getVoo = VooService.findById(reserva.getId_voo());
                 for (Voo voo : getVoo) {
-                    System.out.println("Codigo Passagem: " + voo.getId_voo());
+                    System.out.println("Codigo Reserva: " + voo.getId_voo());
                     System.out.println("Voo: " + voo.getNumero_voo());
                     System.out.println("Origem: " + voo.getOrigem() + " | Destino: " + voo.getDestino());
                     System.out.println("Ida: " + voo.getData_partida() + " | Volta: " + voo.getData_chegada());

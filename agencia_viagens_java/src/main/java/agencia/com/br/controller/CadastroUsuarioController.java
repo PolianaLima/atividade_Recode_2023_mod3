@@ -115,11 +115,21 @@ public class CadastroUsuarioController {
                 .filter(cliente -> cliente.getEmail().equals(email)&& cliente.getSenha().equals(senha))
                 .collect(Collectors.toList());
 
+
+
+
+
         while (usuarioAutenticado.isEmpty()){
             System.out.println("Usuario ou senha inválidos! \n \n");
 
             System.out.println("Digite um usuario e senha valido para efetuar LOGIN!");
-            loginAutenticado();
+            email = readString("Usuário: ");
+            senha = readString("Senha: ");
+
+          usuarioAutenticado =   usuarios.stream()
+                    .filter(cliente -> cliente.getEmail().equals(email)&& cliente.getSenha().equals(senha))
+                    .collect(Collectors.toList());
+
         }
 
 
