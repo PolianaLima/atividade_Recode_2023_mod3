@@ -6,6 +6,8 @@ Atividade desenvolvida para exercitar conhecimentos do modulo 02 e 03.
   <li>Execute o script de SQL no Workbanch na ordem da escrita de criação do banco de dados e das tabelas</li>
  <li>Abra o projeto JAVA e baixe as dependecias pelo gerenciador de dependencias MAVEN</li> 
  <li>E execute o projeto JAVA;</li> 
+<p>Para Visualizar o projeto HTML abra a pasta <B>agencia_viagens_java</B> e abra o arquivo index.html </p>
+<a href="https://agencia-ferias-lazer.netlify.app/">Link do site : Agencia de Viagem!</a>
 
  ## IMPORTANTE
  ### Na rotina de Administrador cadastre as informações: 
@@ -13,4 +15,3 @@ Atividade desenvolvida para exercitar conhecimentos do modulo 02 e 03.
  <li>Voos</li>
 <p>Para depois cadastrar as informações referentes a compra de passagens pelo usuário </p>
  
-
